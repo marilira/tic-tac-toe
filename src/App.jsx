@@ -75,7 +75,7 @@ function App() {
   }
 
   function handleSquareClick(index) {
-    if (winner)
+    if (winner || isDraw)
       return;
     if (board[index] !== null)
       return;
@@ -107,7 +107,7 @@ function App() {
         : "bg-player-o-bg"
       }
     `}>
-      {winner ? (
+      {winner || isDraw ? (
         <GameStatus winner={winner} isDraw={isDraw} />
       ) : (
         <CurrentPlayer player={currentPlayer} />
