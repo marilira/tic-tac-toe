@@ -108,7 +108,7 @@ function App() {
   }
 
   return (
-    <main className={`min-h-screen flex flex-col gap-8 items-center justify-center transition-colors duration-700
+    <main className={`min-h-screen w-full px-4 flex flex-col gap-8 items-center justify-center transition-colors duration-700
       ${currentPlayer === "X"
         ? "bg-player-x-bg"
         : "bg-player-o-bg"

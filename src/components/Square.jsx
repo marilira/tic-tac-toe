@@ -11,7 +11,8 @@ export default function Square(props) {
             onClick={() => props.onClick(props.index)}
             className={`
         aspect-square
-        w-24
+        w-[28vw]
+        max-w-28
         ${border}
         border-board-grid
         text-3xl
