@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+    /* Jogador X — Roxo */
+    --color-player-x: #A78BFA;
+    --color-player-x-bg: #211333;
+
+    /* Jogador O — Índigo */
+    --color-player-o: #818CF8;
+    --color-player-o-bg: #151D3B;
+
+    /* Tabuleiro */
+    --color-board-grid: #A78BFA;
+}
