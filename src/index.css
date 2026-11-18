@@ -9,6 +9,10 @@
     --color-player-o: #818CF8;
     --color-player-o-bg: #151D3B;
 
+    /* Empate — Azul */
+    --color-draw: #E2E8F0;
+    --color-draw-bg: #252536;
+
     /* Tabuleiro */
     --color-board-grid: #A78BFA;
 }

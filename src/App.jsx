@@ -3,6 +3,7 @@ import Board from "./components/Board";
 import CurrentPlayer from "./components/CurrentPlayer";
 import { useState } from "react";
 import GameStatus from "./components/GameStatus";
+import RestartButton from "./components/RestartButton";
 
 function App() {
   const [board, setBoard] = useState(Array(9).fill(null));
@@ -99,6 +100,12 @@ function App() {
     setCurrentPlayer(currentPlayer === "X" ? "O" : "X")
   }
 
+  function restartGame() {
+    setBoard(Array(9).fill(null));
+    setCurrentPlayer("X");
+    setWinner(false);
+    setIsDraw(false);
+  }
 
   return (
     <main className={`min-h-screen flex flex-col gap-8 items-center justify-center transition-colors duration-700
@@ -114,6 +121,10 @@ function App() {
       )}
 
       <Board board={board} onSquareClick={handleSquareClick} />
+
+      {(winner || isDraw) && (
+        <RestartButton onRestart={restartGame} winner={winner} />
+      )}
     </main>
   );
 }
