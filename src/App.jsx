@@ -78,8 +78,10 @@ function App() {
   function handleSquareClick(index) {
     if (winner || isDraw)
       return;
-    if (board[index] !== null)
+    if (board[index] !== null) {
+      window.alert("Tente outra casa");
       return;
+    }
 
     const newBoard = board.map((value, i) => {
       if (i === index)
