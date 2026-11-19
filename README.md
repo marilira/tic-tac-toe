@@ -1,16 +1,65 @@
-# React + Vite
+# 🎮 Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um jogo da velha desenvolvido com **React**, com interface moderna, tema escuro e elementos em neon.
 
-Currently, two official plugins are available:
+<kbd>[▶️ Acessar o jogo](https://jogo-da-vellha-mah.vercel.app)</kbd>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais do React, como componentes, estados, propriedades e manipulação de eventos.
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎯 Tabuleiro interativo de 3×3.
+- 🔄 Alternância automática entre os jogadores X e O.
+- 🏆 Detecção automática de vitória por linhas, colunas e diagonais.
+- 🤝 Identificação de empate.
+- 🚫 Bloqueio de jogadas em posições já ocupadas.
+- 🔁 Opção para reiniciar a partida.
+- 🎨 Interface minimalista com tema escuro e elementos em neon.
+- 📱 Suporte à instalação como Progressive Web App (PWA).
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — construção da interface e gerenciamento de estados.
+- **JavaScript** — lógica e funcionalidades do jogo.
+- **Tailwind CSS** — estilização da interface.
+- **Vite** — ambiente de desenvolvimento e build.
+- **PWA** — recursos de instalação do aplicativo.
+
+## 🚀 Como executar o projeto
+
+1. Clone este repositório:
+
+   ```bash
+   git clone URL_DO_REPOSITORIO
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd NOME_DO_PROJETO
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Acesse o endereço disponibilizado pelo Vite no terminal.
+
+## 📚 Objetivo do projeto
+
+Este projeto faz parte da minha jornada de aprendizado em desenvolvimento front-end, colocando em prática conceitos de React e fortalecendo minhas habilidades em lógica de programação, organização de componentes e desenvolvimento de interfaces.
+
+## 👩‍💻 Desenvolvido por
+
+**Mariana Lira**
+
+[GitHub](https://github.com/marilira)
+[Linkedin](https://www.linkedin.com/in/marilira7/)
